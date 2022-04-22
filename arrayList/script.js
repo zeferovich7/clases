@@ -40,4 +40,36 @@ for ( pro in productos4) {
 }
 var productos5={}
 Object.defineProperty(productos5,"Fruta1",{value:"Manzana",writable:true,enumerable:true,configurable:true});
-document.write(productos5.Fruta1);*/
+document.write(productos5.Fruta1);
+var productos6={
+    nombre:[],
+    presentacion:[],
+    valor:[]
+}
+for (i = 0; i < 3; i++) {
+    productos6.nombre[i]=prompt("Digite nombre del producto: ");
+    productos6.presentacion[i]=prompt("Digite presentacion del producto: ");
+    productos6.valor[i]=prompt("Digite valor del producto: ");
+}
+for (pro in productos6) {
+    document.write(pro+": "+productos6[pro]+"<br>");
+}
+document.write("<table border='1'>");
+for (pro in productos6) {
+    document.write("<tr>");
+    for (i = 0; i < 3; i++) {
+        document.write("<td>");
+        document.write(productos6[pro][i]);
+        document.write("</td>");
+    }
+    document.write("</tr>");
+}
+document.write("</table>");*/
+var arreglo1=[3,5,9,10,12,15,16,17,18], arreglo2=[1,2,4,6,7,8,11,13,14];
+var sum1=0, sum2=0;
+for (i = 0; i < arreglo1.length; i++) {
+    sum1=sum1+arreglo1[i];
+    sum2=sum2+arreglo2[i];
+    document.write(arreglo1[i]+"+"+arreglo2[i]+"="+(arreglo1[i]+arreglo2)+"<br>");
+}
+document.write(sum1+"+"+sum2+"="+(sum1+sum2));
