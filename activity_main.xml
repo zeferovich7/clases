@@ -22,18 +22,18 @@
                 android:id="@+id/textView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="15dp"
-                android:layout_marginTop="30dp"
-                android:layout_marginRight="15dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="100dp"
+                android:layout_marginRight="30dp"
                 android:text="Ingrese Correo" />
 
             <EditText
                 android:id="@+id/et_email"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="15dp"
+                android:layout_marginLeft="30dp"
                 android:layout_marginTop="5dp"
-                android:layout_marginRight="15dp"
+                android:layout_marginRight="30dp"
                 android:ems="10"
                 android:hint="Enter Email"
                 android:inputType="textEmailAddress"
@@ -42,21 +42,21 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/textView2"
+                android:id="@+id/tv_password"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="15dp"
+                android:layout_marginLeft="30dp"
                 android:layout_marginTop="5dp"
-                android:layout_marginRight="15dp"
+                android:layout_marginRight="30dp"
                 android:text="Ingrese Contraseña" />
 
             <EditText
                 android:id="@+id/et_password"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="15dp"
+                android:layout_marginLeft="30dp"
                 android:layout_marginTop="5dp"
-                android:layout_marginRight="15dp"
+                android:layout_marginRight="30dp"
                 android:ems="10"
                 android:hint="Enter Password"
                 android:inputType="textPassword"
@@ -67,9 +67,9 @@
                 android:id="@+id/btnIngresar"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="15dp"
+                android:layout_marginLeft="30dp"
                 android:layout_marginTop="5dp"
-                android:layout_marginRight="15dp"
+                android:layout_marginRight="30dp"
                 android:text="Ingresar"
                 app:cornerRadius="30dp" />
 
@@ -77,9 +77,10 @@
                 android:id="@+id/btnRegistro"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="15dp"
+                android:layout_marginLeft="30dp"
                 android:layout_marginTop="5dp"
-                android:layout_marginRight="15dp"
+                android:layout_marginRight="30dp"
+                android:onClick="singUp"
                 android:text="Registrarme"
                 app:cornerRadius="30dp" />
         </LinearLayout>
