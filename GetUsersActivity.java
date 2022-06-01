@@ -31,5 +31,6 @@ public class GetUsersActivity extends AppCompatActivity {
         cursor.moveToNext();
         int id=cursor.getInt(0);
         Toast.makeText(this, "id: "+id, Toast.LENGTH_SHORT).show();
+        userBinding.tvUserEmail.setText(id);
     }
 }
